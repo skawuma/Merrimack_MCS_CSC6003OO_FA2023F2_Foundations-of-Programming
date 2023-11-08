@@ -16,4 +16,4 @@ def evenly_divides():
 if evenly_divides():
     print("Either one number evenly divides the other.")
 else:
-    print("No number evenly divides the other.")
+    print("Neither Two of  evenly divides the other.")
