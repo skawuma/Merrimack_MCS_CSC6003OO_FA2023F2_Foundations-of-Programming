@@ -4,7 +4,7 @@ class BankAccounts:
    balance=0.0
    count=0
 
-   def init_(self, customer_name):
+   def __init__(self, customer_name):
      self.customer_name=customer_name 
      self.account_num=self.generateAccountNumber()
      self.balance=0 
