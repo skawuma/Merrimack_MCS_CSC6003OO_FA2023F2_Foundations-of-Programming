@@ -53,19 +53,19 @@ class Rectangle:
 
         Returns:
         - float:
-            The perimter  of the Rectangle.
+            The area  of the Rectangle.
         """
         
         return self.length*self.width
     
     def display(self):
         
-         """
+        """
         Displays the Perimter and area of the Rectangle 
 
         Returns:
         - float:
-            The perimter  of the Rectangle.
+            The perimter area  of the Rectangle.
         """
         
         print("\nA Rectangle of length" ,self.length,"and Width",self.width,"has a", "\nPerimeter of ",self.perimeter(),"and"," \nArea of:" ,self.area(),"\n")
