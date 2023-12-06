@@ -14,8 +14,7 @@ def main():
   """
 
   print(""" 
-        WELCOME TO MY MMUSIC COLLECTION MANAGER"
-   
+  ******** WELCOME TO MY MMUSIC COLLECTION MANAGER"***********
   -------------------------------------------------------------
   1.add - Prompt the user to enter the song title and artist, and add it to the music collection"
   2.getSongDetials - Prompt the user to enter a song title, and display the corresponding artist from the music collection "
