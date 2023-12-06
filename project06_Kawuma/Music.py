@@ -40,7 +40,8 @@ class Music:
         Parameters:-> None
         
        """ 
-       raise NotImplementedError()
+    
+     
 
     def add_song(self):
         
