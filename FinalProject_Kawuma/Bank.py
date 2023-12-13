@@ -7,11 +7,11 @@ class Bank:
  bank_accounts_collections=[]
  
 #variable to store count of entered accounts
- count =0
+
  def __init__(self) :
-     self.count+=1
-     self.bank_accounts_collections=[]
      
+     self.bank_accounts_collections=[]
+
 #function to open a new account 
  def open_new_account(self):
   while True:
@@ -133,27 +133,6 @@ class Bank:
         except IndexError:
          print("\033[1;31;40mThat bank account does not exist.\033[0m")
          continue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  def check_balance(self):
   global count
